@@ -1,0 +1,16 @@
+git init
+git remote add origin URL
+touch comandos.txt main.js index.html
+git add --all
+git commit -m 'commit 01 de DianaAlderete'
+git push -u origin main
+git branch feature
+git checkout feature 
+mkdir Hardware Software SeguridadInformatica 
+touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt 
+git add --all
+git commit -m 'commit 02 de DianaAlderete'
+git push origin feature 
+git checkout main 
+mv main.js resumenHardware.tx
+mv index.html resumenSoftware.txt
